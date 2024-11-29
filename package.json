@@ -1,0 +1,21 @@
+{
+  "name": "mail-send-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "first-start": "npm ci && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
